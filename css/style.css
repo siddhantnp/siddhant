@@ -1,0 +1,1306 @@
+/* Stylesheet-CSS For The Website-By Siddhant 
+     Copyright © 2021 Siddhant- All Rights Reserved*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: arial;
+	background-color: #ffffff;
+}
+
+.navigate{
+	height:18px ;
+	width: 18px;
+	padding:6px 0px 0px 10px;
+}
+.handler{
+	display: flex;
+}
+.spare{
+	margin-bottom: 20px;
+}
+.additional{
+ font-size: 15px;
+ background-color: none;
+ border: 2px solid transparent;
+ border-radius: 10px;
+ padding: 10px;
+ color: black;
+ cursor: pointer;
+position: absolute;
+left: 50%;
+transform: translate(-50%);
+transition: all 0.2s ease-in-out;
+}
+.additional:hover{
+	 border: 2px solid black;
+	 background-color: crimson;
+	 color: white;
+
+}
+.cam-icon{
+   height: 20px;
+   width: 20px;
+}
+
+
+
+.articles{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+/*Poems- CSS By Siddhant*/
+.poems{
+
+}
+.poems img{
+	width: 230px;
+	padding:5px;
+	transition: 1s;
+
+	
+}
+.poems img:hover{
+	transform: scale(1.1);
+	filter: brightness(80%);
+	
+
+}
+.sectionSubTag a{
+	color: #3119b3;
+	transition: all 0.2s ease-in-out;
+
+}
+.sectionSubTag a:hover{
+	text-decoration: underline;
+	color: #bf1919;
+}
+.preview{
+	height: 210px;
+	width: 390px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #afa9a9;
+	border-radius: 5px;
+   
+}
+.follow{
+	height:25px ;
+	width: 25px;
+}
+.btn-message{
+	display: flex;
+	padding: 10px 15px 10px 15px;
+	background-color: green;
+	border: 2px solid black;
+	border-radius: 10px;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 0px 10px 10px 10px;
+	transition: 0.3s ease;
+}
+.btn-message:hover{
+    transform: scale(1.1);
+    background-color: #04a104ed;
+}
+	.buttons{
+		text-align: center;
+	}
+.diver{
+	display: flex;
+	
+}
+.message-text{
+	display: flex;
+	margin-top: 20px;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: 20;
+
+}
+.subpart-text{
+font-size: 18px;
+
+}
+
+
+
+/*CSS BY Siddhant*/
+.roundedbox{
+	display: flex;
+}
+.leader{
+	display: flex;
+}
+
+
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 2px 8px 3px 2px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  border-radius: 80px;
+  margin-left: 5px;
+
+}
+
+.dropdown {
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #706f6f;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+.link-list{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 1px solid #706f6f;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.link-list a {
+  color: #104419;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+}
+.menu-down{
+	margin-top: 15px;
+}
+.link-poems{
+   margin-top: 25px;
+}
+.boxer a{
+	font-family: nirmala;
+}
+.link-list a:hover {
+	background-color: #ddd;
+  text-decoration: underline;
+  color: #af0202;
+}
+
+.dropdown:hover .link-list {display: block;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+ 
+/* Current Css ends here */
+.logo{
+	width: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+padding: 0px 0px 0px 20px;
+
+}
+.logo img{
+	width: 45px;
+	border: 1.5px solid white;
+	border-radius: 50px;
+} 
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+  	z-index: 2;
+    overflow: hidden;
+   
+}
+.nav-list{
+	width: 70%;
+display: flex;
+align-items: center;
+
+}
+.nav-list li{
+list-style: none;
+padding: 25px 30px;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+font-family: arial;
+font-size: 18px;
+transition-property: all;
+transition-duration: 0.1s;
+transition-timing-function: ease-in-out;
+
+
+}
+
+::selection{
+	background-color: #53d5bc;
+    color: black;
+}
+.nav-list li a:hover{
+	color:#9eb7df;
+	
+
+}
+
+.btn:hover{
+	border: 2px solid #5c5c5c;
+	border-radius: 8px;
+	background-color: black;
+}
+.btn a:hover{
+	color: #9eb7df;
+	
+}
+.rightNav{
+	
+	text-align: right;
+	width: 30%;
+
+}
+/*Translate-Version Button-CSS By Siddhant*/
+
+.translate{
+margin-right: 30px;
+}
+.nepal-flag{
+	height: 22px;
+	width: 22px;
+	
+}
+.v-btn{
+   border: 1px solid white;
+	border-radius: 10px;
+}
+
+.nversion{
+	font-size: 12px;
+	transition-property: all;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in-out;
+}
+.nversion:hover{
+	color: #ef6982fc;
+}
+
+/*sub text typing animation*/
+h2 {
+  font-weight: 200;
+  color: #950707;
+}
+h2 { font-size: 20px; }
+
+
+
+/*sub text typing animation ends here*/
+
+
+
+
+
+/*Translate-Version Button-CSS Ends Here*/
+
+#search{
+	padding: 5px;
+	font-size:16px ;
+	border: 2px solid grey;
+	border-radius: 5px;
+	}
+
+.background{
+	background: rgba(0, 0, 0, 0.8) url('../pictures/largephoto.jpg');
+	background-size: cover;
+	background-blend-mode: darken;
+	animation: change 40s infinite ease-in-out;
+}
+/* Animation Settings -By Siddhant*/
+
+@keyframes change{
+	0%{
+		background-image: url('../pictures/img1.jpg');
+	}
+	20%{
+		background-image: url('../pictures/img2.jpg');
+	}
+	40%{
+		background-image: url('../pictures/img3.jpg');
+	}
+	60%{
+		background-image: url('../pictures/img4.jpg');
+	}
+	80%{
+		background-image: url('../pictures/img5.jpg');
+	}
+	100%{
+		background-image: url('../pictures/img6.jpg');
+	}
+}
+
+
+/*Animation Settings Ends Here*/
+
+.firstSection{
+	height: 100vh;
+}
+.box-main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: Arial;
+	max-width: 100%;
+	margin: auto;
+	height: 80%;
+	flex-direction: column-reverse;
+}
+.firstHalf{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.secondHalf{
+width: 20.2%;
+margin-bottom: 10px;
+}
+.secondHalf img{
+	width: 99%;
+	border: 4px solid white;
+	border-radius: 150px;
+	display: block;
+	margin: auto;
+
+}
+.text-big{
+	font-size: 30px;
+
+}
+.text-small{
+	font-size: 25px;
+
+}
+/*Text-typing animation*/
+.output {
+  text-align:center;
+  font-family: arial;
+  color:white;
+   
+    font-size:27px;
+
+
+  
+  
+}
+
+/* Cursor Styling */
+
+.cursor::after {
+  content:'';
+  display:inline-block;
+  margin-left:3px;
+  background-color:white;
+  animation-name:blink;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+}
+h1.cursor::after {
+  height:20px;
+  width:13px;
+}
+p.cursor::after {
+  height:13px;
+  width:6px;
+}
+
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  49% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+
+/*text-typing animation ends here*/
+
+.btn a{
+	color: snow;
+	transition-property: all;
+transition-duration: 0.1s;
+transition-timing-function: ease-in-out;
+
+}
+.btn{
+	padding: 6px 20px;
+	margin: 7px 0;
+	border: 2px solid white;
+	border-radius: 8px;
+	font-size: 18px;
+	background: none;
+	color: snow;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 20px;
+	transition-property: all;
+transition-duration: 0.1s;
+transition-timing-function: ease-in-out;
+
+}
+
+.btn-sm{
+	padding:5px 10px ;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.btn-dark{
+	color: black;
+	border: 2px solid grey;
+	padding: 8px 50px 8px 50px;
+	margin-top: 1px;
+	font-size: 22px;
+
+
+}
+.btn-dark:hover{
+	background-color: green;
+	color: white;
+	border: 2px solid black;
+}
+.burger{
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	right: 5%;
+	top: 10%;
+
+}
+.line{
+	width: 33px;
+	background-color: white;
+	height: 4px;
+	margin: 5px 3px;
+
+
+}
+
+.section{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 990px;
+	margin:auto;
+	padding: 50px 0px 50px 0px;
+
+}
+.sectionTag{
+     padding: 0px 0px 5px 0px;
+        font-size: 25px;
+        color: black;
+        font-weight: 540;
+	}
+	.sectionSubTag{
+        padding: 0px;
+        font-size: 20px;
+        color: black;
+	}
+.section-left{
+	flex-direction: row-reverse;
+}
+.paras{
+	padding: 0px 65px;
+
+}
+
+.imgFluid{
+  height: 200px;
+	width: 190px;
+	border: 2px solid grey;
+	border-radius: 100px;
+	
+}
+
+}
+.newDiv{
+	margin-top: 20px;
+}
+
+/*Videos-Section-CSS By Siddhant*/
+.myVideos{
+	margin-bottom: 50px;
+
+}
+.setting{
+	height:300px ;
+	width:380px ;
+	border-radius: 10px;
+	transition: 1s ease;
+
+}
+.setting:hover{
+	transform: scale(1.1);
+	border: 4px solid crimson;
+}
+.bucket{
+	padding: 20px;
+}
+
+.mp4img{
+	height: 170px;
+	width: 160px;
+	display: none;
+}
+
+
+
+.vidHolder{
+	display: flex;
+	margin: 50px 0px 50px 0px;
+}
+.vidHolder1{
+	display: flex;
+	margin: 50px 0px 50px 0px;
+}
+
+
+.medias{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+/*Video-Section-Css-Ends_Here*/
+
+.contact{
+	background-color: #f9f8f7;
+	height: 833px;
+}
+
+.text-center{
+
+	text-align: center;
+	padding-top: 30px;
+	font-family: arial;
+	font-size: 36px;
+
+}
+.form{
+	max-width: 62%;
+	margin: 25px auto;
+}
+
+
+.form-input{
+	margin: 20px 0;
+	padding: 5px 13px;
+	width: 100%;
+	font-size: 15px;
+	border: 2px solid grey;
+	border-radius: 6px;
+	font-family:arial ;
+}
+.text-footer{
+	text-align: center;
+	padding: 30px 0;
+	font-family: arial;
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.download{
+	height: 34px;
+	width: 34px;
+}
+.resume{
+	display: flex;
+	margin-bottom: 25px;
+
+}
+.data{
+	padding:0px 0px 10px 390px;
+
+}
+.global{
+	height: 32px;
+	width: 32px;
+}
+.website{
+	padding:0px 0px 10px 90px;
+
+}
+.icon-div{
+	display: flex;
+
+}
+
+.yt{
+	height:32px ;
+	width:32px ;
+
+}
+.web-btn{
+	border-radius: 10px;
+}
+.yt-btn{
+	border-radius: 10px;
+}
+.youtube{
+	padding:0px 0px 10px 110px;
+}
+
+
+/*Preloader Settings-CSS By Siddhant*/
+#preloader{
+	background: #000 url('../pictures/loader.gif') no-repeat center center;
+	background-size: 8%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+/*Preloader Settings End Here*/
+
+
+
+
+
+
+@media only screen and (max-width: 1061px){
+	.nav-list{
+		flex-direction: column;
+	}
+	.icon-div{
+		flex-direction: column;
+		align-items: center;
+	}
+.data{
+	padding:0px 0px 10px 20px;
+
+}
+.website{
+	padding:0px 0px 10px 20px;
+
+}
+.youtube{
+	padding:0px 0px 10px 20px;
+}
+.myVideos{
+	
+	margin-bottom: 100px;
+}
+
+
+	.navbar{
+		height: 465px;
+		flex-direction: column;
+		transition: all 0.4s ease-out;
+	}
+	.rightNav{
+		text-align: center;
+	}
+	.box-main{
+		flex-direction: column-reverse;
+		max-width: 100%;
+	}
+
+	#search{
+		width: 100%;
+	}
+	.burger{
+		display: block;
+	
+	}
+	.section{
+		flex-direction: column-reverse;
+		margin: 0px 40px 0px 40px;
+	}
+
+	.text-small{
+		text-align: center;
+		font-size: 27px;
+
+	}
+	.text-big{
+		text-align: center;
+		font-size: 32px;
+		
+	}
+	.buttons{
+		text-align: center;
+		margin-top: 12px;
+	}
+
+	.btn{
+		font-size: 22px;	
+	}
+	.paras{
+		padding: 0;
+
+	}
+	.sectionTag{
+     padding: 0px;
+        font-size: 3vw;
+        color: black;
+
+	}
+	.sectionSubTag{
+        padding: 0px;
+        font-size: 2.5vw;
+        color: black;
+	}
+
+	.imgFluid{
+	height: 160px;
+	width: 160px;
+	border: 2px solid grey;
+	border-radius: 80px;
+	
+}
+#preloader{
+	background-size:14%;
+}
+.text-footer{
+	font-size: 15px;
+	padding:10px 10px 16px 10px;
+}
+	.h-nav-resp{
+		height: 79px;
+	}
+	.v-class-resp{
+		opacity: 0;
+	}
+
+	.translate{
+margin-right: 20px;
+}
+.secondHalf{
+width: 30%;
+}
+.secondHalf img{
+	width: 99%;
+	border: 4px solid white;
+	border-radius: 150px;
+	display: block;
+	margin: auto;
+
+}
+	.poems{
+		margin-left: 100px;
+	}
+	.vidHolder{
+	display: flex;
+
+	margin: 50px 0px 50px 50px;
+}
+.vidHolder1{
+	display: flex;
+
+	margin: 50px 0px 50px 50px;
+}
+
+}
+
+@media (max-width: 900px){
+	.vidHolder{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 50px 100px;
+}
+.vidHolder1{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 50px 100px;
+}
+.leader{
+	flex-direction: column;
+}
+.nepal-flag{
+	height: 22px;
+	width: 22px;
+	
+}
+
+}
+
+
+
+  @media (max-width: 770px){
+  	.sectionTag{
+     padding: 0px;
+        font-size: 4.6vw;
+        color: black;
+	}
+	.sectionSubTag{
+        padding: 0px;
+        font-size: 3.6vw;
+        color: black;
+	}
+	.poems{
+		margin-left: 99px;
+	}
+	.myVideos{
+	
+	margin-bottom: 100px;
+}
+.leader{
+	flex-direction: column;
+}
+
+
+.vidHolder{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 120px;
+}
+.vidHolder1{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 120px;
+}
+
+
+
+
+.text-small{
+		text-align: center;
+		font-size: 27px;
+
+	}
+	.text-big{
+		text-align: center;
+		font-size: 34px;
+		
+	}
+.btn{
+		font-size: 20px;	
+	}
+	.secondHalf{
+width: 40%;
+}
+.secondHalf img{
+	width: 99%;
+	border: 4px solid white;
+	border-radius: 150px;
+	display: block;
+	margin: auto;
+
+}
+.follow{
+	height:20px ;
+	width: 20px;
+}
+.btn-message{
+		padding: 10px;
+	font-size: 3vw;
+	width: 150px;
+	align-self: center;
+	margin-top: 10px;
+}
+.diver{
+	flex-direction: column;
+}
+.btn-message:hover{
+    transform: scale(1.1);
+    background-color: #04a104ed;
+}
+.message-text{
+	font-size: 3.2vw;
+}
+
+
+  }
+
+
+ @media (max-width: 670px) {
+	.vidHolder{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 74px;
+}
+.vidHolder1{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 74px;
+}
+.medias{
+	margin:0px 10px 0px 10px ;
+}
+
+
+ }
+
+
+
+
+
+
+  @media (max-width: 560px){
+  	.sectionTag{
+     padding: 0px;
+        font-size: 6vw;
+        color: black;
+	}
+	.sectionSubTag{
+        padding: 0px;
+        font-size: 4.6vw;
+        color: black;
+	}
+	.vidHolder{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 70px;
+}
+.vidHolder1{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 70px;
+}
+
+
+
+.text-small{
+		text-align: center;
+		font-size: 25px;
+
+	}
+	.text-big{
+		text-align: center;
+		font-size: 30px;
+		
+	}
+.btn{
+		font-size: 18px;	
+	}
+	.secondHalf{
+width: 45%;
+}
+.secondHalf img{
+	width: 99%;
+	border: 4px solid white;
+	border-radius: 150px;
+	display: block;
+	margin: auto;
+
+}
+.poems{
+		margin-left: 50px;
+	}
+	.message-text{
+	font-size: 3.8vw;
+}
+.btn-message{
+		padding: 10px;
+	font-size: 3.5vw;
+	width: 150px;
+	align-self: center;
+	margin-top: 10px;
+}
+
+.setting{
+	height:270px ;
+	width:310px ;
+	border-radius: 10px;
+	transition: 1s ease;
+
+}
+.bucket{
+	padding: 20px 0px 20px 0px;
+}
+
+
+
+  }
+
+
+  @media (max-width: 490px){
+
+          	.vidHolder{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 38px;
+}
+.vidHolder1{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 0px 38px;
+}
+.setting{
+	    height: 223px;
+    width: 270px;
+}
+
+
+ 
+  }
+
+
+
+
+
+
+  @media (max-width: 378px){
+       	.section{
+	
+		margin: 0px 20px 0px 20px;
+	}
+	.output{
+		font-size: 24px;
+	}
+	.roundedbox{
+		flex-direction: column;
+	}
+
+	.text-small{
+		text-align: center;
+		font-size: 23px;
+
+	}
+	.navigate{
+	height:15px ;
+	width: 15px;
+	
+}
+.dropbtn {
+  padding: 1px 5px 1px 0px;
+
+}
+
+	.text-big{
+		text-align: center;
+		font-size: 28px;
+		
+	}
+.btn{
+		font-size: 18px;	
+	}
+	.secondHalf{
+width: 52%;
+}
+.secondHalf img{
+	width: 99%;
+	border: 4px solid white;
+	border-radius: 150px;
+	display: block;
+	margin: auto;
+
+}
+	.sectionTag{
+     padding: 0px;
+        font-size: 6.2vw;
+        color: black;
+	}
+	.sectionSubTag{
+        padding: 0px;
+        font-size: 4.9vw;
+        color: black;
+	}
+	.poems{
+		margin-left: 20px;
+	}
+	.message-text{
+	font-size: 5vw;
+}
+
+.subpart-text{
+	font-size: 15px;
+}
+.imgFluid{
+	height:120px ;
+	width: 120px;
+}
+.btn-message{
+		padding: 10px;
+	font-size: 5vw;
+	width: 120px;
+	align-self: center;
+	margin-top: 10px;
+}
+
+       	.vidHolder{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 10px 18px;
+}
+.vidHolder1{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 10px 18px;
+}
+.setting{
+	    height: 223px;
+    width: 270px;
+}
+.poems img{
+	width: 220px;
+	padding:5px;
+	transition: 0.9s;
+
+	
+}
+.preview{
+	height: 190px;
+	width: 390px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #afa9a9;
+	border-radius: 5px;
+   
+}
+.additional{
+	font-size: 12px;
+	padding: 4px;
+}
+
+
+
+
+
+
+  }
+
+
+
+
+
+@media (max-width: 285px){
+	.section{
+	
+		margin: 0px 20px 0px 20px;
+	}
+		.sectionTag{
+     padding: 0px;
+        font-size: 7.6vw;
+        color: black;
+	}
+	.sectionSubTag{
+        padding: 0px;
+        font-size: 5.8vw;
+        color: black;
+	}
+	.secondHalf{
+width: 54%;
+}
+.secondHalf img{
+	width: 99%;
+	border: 4px solid white;
+	border-radius: 150px;
+	display: block;
+	margin: auto;
+
+}
+.medias{
+	margin: 0px;
+}
+	.text-small{
+		text-align: center;
+		font-size: 20px;
+
+	}
+	.text-big{
+		text-align: center;
+		font-size: 24px;
+		
+	}
+	.btn{
+		font-size: 15px;	
+	}
+	.navigate{
+	height:13px ;
+	width: 13px;
+	
+}
+.dropbtn {
+  padding: 1px 5px 1px 0px;
+  font-size: 12px;
+
+ 
+}
+.dropdown-content {
+
+  min-width: 120px;
+  
+}
+.poems{
+		margin-left: 5px;
+	}
+	.message-text{
+		font-size: 5.5vw;
+	}
+	.output{
+		font-size: 22px;
+	}
+	.btn-message{
+		padding: 8px;
+	font-size: 6vw;
+	width: 100px;
+	align-self: center;
+	margin-top: 10px;
+}
+
+     	.vidHolder{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 10px 8px;
+}
+.vidHolder1{
+	display: flex;
+	flex-direction: column;
+	margin: 50px 0px 10px 8px;
+}
+.setting{
+height: 208px;
+    width: 229px;
+}
+
+
+
+
+}
+
+/* Stylesheet-CSS For The Website-By Siddhant 
+     Copyright © 2021 Siddhant- All Rights Reserved*/
+
+
+

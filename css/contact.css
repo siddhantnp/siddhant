@@ -1,0 +1,292 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: 0;
+	list-style: 0;
+}
+/* Stylesheet-CSS For The Website-By Siddhant 
+     Copyright © 2021 Siddhant- All Rights Reserved*/
+body{
+	font-family: arial;
+}
+/*Button-back CSS By Siddhant*/
+.back{
+	display: flex;
+	margin-top: 8px;
+	margin-left:360px;
+	background: #1c7811;
+	border-radius:10px ;
+	cursor: pointer;
+	color: white;
+	padding: 10px 12px 10px 12px;
+	transition-property: all;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in-out;
+
+}
+::selection{
+	background-color: #41ad99;
+    color: black;
+}
+.back:hover{
+background: #248f17;
+color: #d4ddd3;
+
+}
+.flex{
+	padding: 0px 0px 20px 0px;
+}
+
+.arrow{
+	height: 25px;
+	width: 25px;
+}
+.button-text{
+	font-size:22px;
+}
+/*Button-back CSS Ends Here*/
+
+.navbar{
+	overflow: hidden;
+}
+
+.mainbar{
+	margin-left: 40px;
+}
+.background{
+	background: rgba(0, 0, 0, 0.8) url('../pictures/img1.jpg');
+	background-size: cover;
+	background-blend-mode: darken;
+	overflow: hidden;
+
+}
+/*Home Section/Body Css By Siddhant
+.background{
+	background: rgba(0, 0, 0, 0.8) url('../pictures/largephoto.jpg');
+	background-size: cover;
+	background-blend-mode: darken;
+
+}*/
+
+.contacter{
+	color: white;
+	background: rgba(0, 0, 0, 0.8) url('../pictures/largephoto.jpg');
+	background-size: cover;
+	background-blend-mode: darken;
+	overflow: hidden;
+
+}
+/*Fotter Css By Siddhant*/
+
+
+.text-footer{
+	text-align: center;
+	padding: 30px 0;
+	font-family: arial;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+#preloader{
+	background: #000 url('../pictures/loader.gif') no-repeat center center;
+	background-size: 8%;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.data{
+	padding:0px 0px 10px 90px;
+
+}
+
+
+.global{
+	height: 32px;
+	width: 32px;
+}
+.website{
+	padding:0px 0px 10px 70px;
+
+}
+.icon-div{
+	display: flex;
+
+}
+.resume{
+	display: flex;
+	margin-bottom: 25px;
+
+}
+
+.yt{
+	height:32px ;
+	width:32px ;
+
+}
+.web-btn{
+	border-radius: 10px;
+}
+.yt-btn{
+	border-radius: 10px;
+}
+.youtube{
+	padding:0px 0px 10px 70px;
+}
+.btn{
+	padding: 6px 20px;
+	margin: 7px 0;
+	border: 2px solid white;
+	border-radius: 8px;
+	font-size: 18px;
+	background: none;
+	color: snow;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 20px;
+	transition-property: all;
+transition-duration: 0.1s;
+transition-timing-function: ease-in-out;
+
+}
+.btn:hover{
+	border: 2px solid #5c5c5c;
+	border-radius: 8px;
+	background-color: black;
+}
+.download{
+	height: 34px;
+	width: 34px;
+}
+/*Settings With Contact Form- By Siddhant*/
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+	#preloader{
+	background-size:12%;
+}
+.back{
+	margin-left: 30px;
+
+}
+.button-text{
+	font-size:24px;
+}
+
+.data{
+	padding:0px 0px 10px 20px;
+
+}
+.website{
+	padding:0px 0px 10px 20px;
+
+}
+.youtube{
+	padding:0px 0px 10px 20px;
+}
+}
+/*Settingd With Contact Form Ends Here*/
+  @media (max-width: 1028px){
+  	.icon-div{
+		flex-direction: column;
+		align-items: center;
+	}
+.data{
+	padding:0px 0px 10px 20px;
+
+}
+.back{
+	margin-left: 30px;
+
+}
+.text-footer{
+	font-size: 15px;
+	padding:10px 10px 16px 10px;
+}
+.website{
+	padding:0px 0px 10px 20px;
+
+}
+.youtube{
+	padding:0px 0px 10px 20px;
+}
+  }
+
+
+
+
+/*
+@media only screen and (max-width: 1061px){
+	.nav-list{
+		flex-direction: column;
+	}
+	.navbar{
+		height: 465px;
+		flex-direction: column;
+		transition: all 0.5s ease-out;
+	}
+	.rightNav{
+		text-align: center;
+	}
+	.box-main{
+		flex-direction: column-reverse;
+		max-width: 100%;
+	}
+
+	#search{
+		width: 100%;
+	}
+	.burger{
+		display: block;
+	
+	}
+	.section{
+		flex-direction: column-reverse;
+	}
+	.text-small{
+		text-align: center;
+		font-size: 15px;
+
+	}
+	.text-big{
+		text-align: center;
+		font-size: 25px;
+		
+	}
+	.buttons{
+		text-align: center;
+		
+	}
+	.btn{
+		font-size: 10px;	
+	}
+	.paras{
+		padding: 0px;
+font-size: 5px;
+	}
+	.imgFluid{
+	height: 180px;
+	width: 140px;
+	border: 2px solid grey;
+	border-radius: 50px;
+}
+
+
+
+	.h-nav-resp{
+		height: 79px;
+	}
+	.v-class-resp{
+		opacity: 0;
+	}
+	
+	
+	}
+
+}
+*/
