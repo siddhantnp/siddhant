@@ -373,6 +373,7 @@ h2 { font-size: 20px; }
 
 .firstSection{
 	height: 100vh;
+	background-attachment:fixed;
 }
 .box-main{
 	display: flex;
